@@ -31,8 +31,9 @@ ul {
   font-weight: 500;
 }
 
-.header-logo-link {
-  font-family: Raleway;
+.logo-link {
+  font-family: Raleway, sans-serif;
+  color: #4d5ae5;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -42,10 +43,6 @@ ul {
 }
 
 .logo-accent {
-  color: #4d5ae5;
-}
-
-.logo-dark {
   color: #2e2f42;
 }
 
@@ -102,6 +99,7 @@ ul {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  text-align: center;
 }
 
 .section-hero-button {
@@ -110,9 +108,14 @@ ul {
   letter-spacing: 0.64px;
   cursor: pointer;
   background-color: #4d5ae5;
+  line-height: 1.5;
 }
 
 .section-hero-button:hover {
+  background-color: #404bbf;
+}
+
+.section-hero-button:focus {
   background-color: #404bbf;
 }
 
@@ -120,6 +123,7 @@ ul {
 .section-goal {
 }
 .section-goal-title {
+  text-align: center;
 }
 .section-goal-list {
 }
@@ -149,6 +153,7 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .section-team-list {
@@ -180,9 +185,10 @@ ul {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11;
+  line-height: 1.2;
   letter-spacing: 0.72px;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .section-portfolio-list {
@@ -206,16 +212,6 @@ ul {
 /* Footer */
 .footer {
   background-color: #2e2f42;
-}
-
-.footer-logo-link {
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
 }
 
 .logo-Light {
